@@ -1,1 +1,21 @@
-This is our starting file but we are going to flesh it out and figure it out. So there is a small business that I know called Burger Plus. I think we can make a database based on this. this is me spit-balling. If you guys have any ideas that yall have. 
+# Burger Plus Database Project
+
+Database system for the Burger Plus restaurant.
+
+## Files
+
+* **Schema.sql** – Defines all 6 tables
+* **er_diagram.py** – Creates the E-R diagram
+* **er_diagram.png** – E-R diagram image
+
+## Generate E-R Diagram
+
+Requirements: Python + matplotlib
+
+Install:
+pip install matplotlib
+
+How to Run:
+python er_diagram.py
+
+This generates a png file called **er_diagram.png**.
