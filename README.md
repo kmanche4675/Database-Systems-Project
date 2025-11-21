@@ -45,7 +45,7 @@ python main.py create_order --order_id 1001 --customer_id 1 --employee_id 1 --it
 python main.py list_orders
 ```
 
-### Team Members;
+### Team Members
 |      Name       |                            Responsibility                             |
 |-----------------|-----------------------------------------------------------------------|
 | Austin McBurney | Wrote CLI code, readme,  organized repository, testing & instructions |
