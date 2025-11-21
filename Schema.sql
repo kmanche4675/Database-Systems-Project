@@ -44,7 +44,7 @@ CREATE TABLE INVENTORY(
 CREATE TABLE MENU_ITEMS(
         item_id INT PRIMARY KEY,
     name VARCHAR(100) NOT NULL UNIQUE, -- Item name must be unique
-    category VARCHAR(50) NOT NULL,     -- e.g., 'Burger', 'Side', 'Drink'
+    category VARCHAR(50) NOT NULL,     -- e.g., 'Burger', 'Side', 'Drink', 'Dessert', 'Al Carte'
     price DECIMAL(5, 2) NOT NULL CHECK (price >= 0), -- Price must be non-negative
     description VARCHAR(255),
     is_available BOOLEAN DEFAULT TRUE
