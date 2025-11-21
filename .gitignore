@@ -1,0 +1,19 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# SQLite DBs
+*.db
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+
+# Environment files
+.env
+*.env
+
+# Mac system files
+*.DS_Store
