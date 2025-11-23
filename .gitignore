@@ -8,6 +8,8 @@ __pycache__/
 # VS Code settings
 .vscode/
 
+# Added the binary executable file
+sqlite3.exe
 # OS files
 .DS_Store
 
