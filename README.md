@@ -1,25 +1,33 @@
 # Burger Plus -- Database Management Project
-This project implements a simple relational database system for a fast food restaurant called **Burger Plus**. It includes schema creation, sythetic data, test queries, & a command-line interface to manage operations.
+
+This project implements a simple relational database system for a fast food restaurant called **Burger Plus**. It includes schema creation, synthetic data generation, advanced test queries, and a command-line interface (CLI) to manage operations.
+
 ---
-## Setup Instructions
-1. **Clone the Repo**
+
+## Setup Instructions (Read Me Requirement: 2 Points)
+
+The following steps are required to initialize the database and application environment using **SQLite** and **Python 3**.
+
+### Clone the Repo
 ```bash
 git clone https://github.com/kmanche4675/Database-Systems-Project.git
 cd database-systems-project
-```
 
 2. **Install Requirements**
     - Only the built-in sqlite3 and argparse modules are used. No external libraries required.
 
 3. **Create the Database**
 ```bash
-sqlite3 db/burgerplus.db > db/schema.sql
+sqlite3 db/burgerplus.db < db/schema.sql
 ```
 
 4. **Load Sample Data** (Optional)
     - If you want test data included
 ```bash
 sqlite3 db/burgerplus.db < seed_data.sql
+  - Or Python Script
+python seed/seed_data.py
+
 ```
 
 ## Usage: CLI Commands
@@ -44,7 +52,8 @@ python main.py create_order --order_id 1001 --customer_id 1 --employee_id 1 --it
 ```bash
 python main.py list_orders
 ```
-
+6. **Testing**
+sqlite3 db/burgerplus.db < test_queries.sql
 ### Team Members
 |      Name       |                            Responsibility                             |
 |-----------------|-----------------------------------------------------------------------|
