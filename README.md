@@ -50,12 +50,12 @@ python main.py list_orders
 |-----------------|-----------------------------------------------------------------------|
 | Austin McBurney | Wrote CLI code, readme,  organized repository, testing & instructions |
 |-----------------|-----------------------------------------------------------------------|
-|    Kendrick     |                                                                       |
+|    Kendrick                                                                             |
 |   Manchester    | Managed team dynamics ensuring effective colaboration                 |
 |-----------------|-----------------------------------------------------------------------|
-|   Dennis Garay  |  Wrote the descriptive content for the relational schema and the data |    |                 |  population process                                                  |    
+|   Dennis Garay  |  Wrote the descriptive content for the relational schema and the data |    |                 |  population process                                                   |    
 |-----------------|-----------------------------------------------------------------------|
 |   Jakobe Allen  |  Created E-R Diagram for the database. Defninng entities, attriubtes, |    |                 |                                                                       |
 |-----------------|-----------------------------------------------------------------------|
-|   Dillon Davis  |  Wrote up report speficications for entire project                    |   
+|   Dillon Davis  |  Wrote up report specificiations for entire project                   |   
 |-----------------|-----------------------------------------------------------------------|
