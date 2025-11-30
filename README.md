@@ -53,7 +53,9 @@ python main.py create_order --order_id 1001 --customer_id 1 --employee_id 1 --it
 python main.py list_orders
 ```
 6. **Testing**
+```bash
 sqlite3 db/burgerplus.db < test_queries.sql
+```
 ### Team Members
 |      Name       |                            Responsibility                             |
 |-----------------|-----------------------------------------------------------------------|
