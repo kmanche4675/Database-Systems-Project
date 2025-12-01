@@ -52,7 +52,7 @@ python main.py list_menu_items
 ```
 5. **List Customers**
 ```bash
-python main.py list_customers_items
+python main.py list_customers
 ```
 6. **Testing**
 ```bash
