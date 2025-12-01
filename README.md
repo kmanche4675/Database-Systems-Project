@@ -56,7 +56,7 @@ python main.py list_customers_items
 ```
 6. **Testing**
 ```bash
-sqlite3 db/burgerplus.db < test_queries.sql
+./sqlite3 db/burgerplus.db < test_queries.sql
 ```
 ### Team Members
 |      Name       |                            Responsibility                             |
