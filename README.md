@@ -7,7 +7,7 @@ This project implements a simple relational database system for a fast food rest
 ## Setup Instructions 
 
 The following steps are required to initialize the database and application environment using **SQLite** and **Python 3**.
-Please ensure the sqlite3.exe is inside of the main directory or the project will not work
+Ensure SQLite is installed and accessible from your PATH, or place sqlite3.exe in the project root.
 
 ### Clone the Repo
 ```bash
