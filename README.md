@@ -23,15 +23,9 @@ cd database-systems-project
 ./sqlite3 db/burgerplus.db < db/schema.sql
 ```
 
-4. **Load Sample Data** (Optional)
-    - If you want test data included
-```bash
-sqlite3 db/burgerplus.db < seed_data.sql
-```
-   Or Python Script
+4. **Load Sample Data**
 ```bash
 python seed/seed_data.py
-
 ```
 
 ## Usage: CLI Commands
