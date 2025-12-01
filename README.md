@@ -46,9 +46,13 @@ python main.py add_customer --id 1 --first John --last Doe --phone 1234567890 --
 ```bash
 python main.py create_order --order_id 1001 --customer_id 1 --employee_id 1255 --item 1 1 --item 2 2
 ```
-5. **List Orders**
+5. **List Menu Items**
 ```bash
-python main.py list_orders
+python main.py list_menu_items
+```
+5. **List Customers**
+```bash
+python main.py list_customers_items
 ```
 6. **Testing**
 ```bash
