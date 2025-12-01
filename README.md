@@ -20,7 +20,7 @@ cd database-systems-project
 
 3. **Create the Database**
 ```bash
-sqlite3 db/burgerplus.db < db/schema.sql
+./sqlite3 db/burgerplus.db < db/schema.sql
 ```
 
 4. **Load Sample Data** (Optional)
