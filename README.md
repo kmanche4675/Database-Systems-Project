@@ -23,6 +23,13 @@ cd database-systems-project
 ```bash
 ./sqlite3 db/burgerplus.db < db/schema.sql
 ```
+**If the Database Exists**
+```bash
+rm -f db/burgerplus.db
+```
+```bash
+./sqlite3 db/burgerplus.db < db/schema.sql
+```
 
 4. **Load Sample Data**
 ```bash
@@ -33,7 +40,7 @@ python seed/seed_data.py
 Run any of the following from the Root Directory:
 1. **Add a Menu Item**
 ```bash
-python main.py add_menu_item --item_id 10 --name "Spicy Burger" --category Burger --price 10.99 --description "Hot and Juicy"
+python main.py add_menu_item --item_id 999 --name "Spicy Burger" --category Burger --price 10.99 --description "Hot and Juicy"
 ```
 2. **List All Menu Items**
 ```bash
