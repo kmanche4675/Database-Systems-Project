@@ -64,16 +64,15 @@ python main.py list_customers
 ./sqlite3 db/burgerplus.db < test_queries.sql
 ```
 ### Team Members
-|      Name       |                            Responsibility                             |
-|-----------------|-----------------------------------------------------------------------|
-| Austin McBurney | Wrote CLI code, readme,  organized repository, testing & instructions |
-|-----------------|-----------------------------------------------------------------------|
-|    Kendrick                                                                             |
-|   Manchester    | Managed team dynamics ensuring effective colaboration                 |
-|-----------------|-----------------------------------------------------------------------|
-|   Dennis Garay  |  Wrote the descriptive content for the relational schema and the data |    |                 |  population process                                                   |    
-|-----------------|-----------------------------------------------------------------------|
-|   Jakobe Allen  |  Created E-R Diagram for the database. Defninng entities, attriubtes, |    |                 |                                                                       |
-|-----------------|-----------------------------------------------------------------------|
-|   Dillon Davis  |  Wrote up report specificiations for entire project                   |   
-|-----------------|-----------------------------------------------------------------------|
+|      Name           |                                     Responsibility                                      |
+|---------------------|-----------------------------------------------------------------------------------------|
+|   Austin McBurney   |          Wrote CLI code, readme,  organized repository, testing & instructions          |
+|---------------------|-----------------------------------------------------------------------------------------|
+| Kendrick Manchester |          Managed team dynamics ensuring effective colaboration                          |
+|---------------------|-----------------------------------------------------------------------------------------|
+|    Dennis Garay     | Wrote the descriptive content for the relational schema and the data population process |
+|---------------------|-----------------------------------------------------------------------------------------|
+|    Jakobe Allen     |          Created E-R Diagram for the database. Defined entities & attributes            |
+|---------------------|-----------------------------------------------------------------------------------------|
+|     Dillon Davis    |            Wrote up report specificiations for entire project                           |   
+|---------------------|-----------------------------------------------------------------------------------------|
