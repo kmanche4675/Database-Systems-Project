@@ -4,7 +4,7 @@ This project implements a simple relational database system for a fast food rest
 
 ---
 
-## Setup Instructions (Read Me Requirement: 2 Points)
+## Setup Instructions
 
 The following steps are required to initialize the database and application environment using **SQLite** and **Python 3**.
 
