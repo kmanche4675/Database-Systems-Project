@@ -29,7 +29,7 @@ python seed/seed_data.py
 ```
 
 ## Usage: CLI Commands
-Run any of the following from the root:
+Run any of the following from the Root Directory:
 1. **Add a Menu Item**
 ```bash
 python main.py add_menu_item --item_id 10 --name "Spicy Burger" --category Burger --price 10.99 --description "Hot and Juicy"
