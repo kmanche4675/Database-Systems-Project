@@ -23,7 +23,7 @@ cd database-systems-project
 ```bash
 ./sqlite3 db/burgerplus.db < db/schema.sql
 ```
-    Create the Database (with cleanup if it already exists)
+   - Create the Database (with cleanup if it already exists)
 ```bash
 rm -f db/burgerplus.db
 ```
