@@ -19,16 +19,17 @@ cd database-systems-project
 2. **Install Requirements**
     - Only the built-in sqlite3 and argparse modules are used. No external libraries required.
 
-3.  **Create and Populate the Database**
-  
-    ```bash
+3. **Create and Populate the Database**
     # 1. DELETE previous database file to ensure a clean start (CRITICAL)
+    ```bash
     rm -f db/burgerplus.db
-    
+    ```
     # 2. CREATE the new schema
+    ```bash
     ./sqlite3 db/burgerplus.db < db/schema.sql
-
+     ```
     # 3. LOAD the synthetic data (Uses Python script)
+    ```bash
     python seed/seed_data.py
     ```
 
