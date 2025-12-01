@@ -67,12 +67,7 @@ python main.py list_customers
 |      Name           |                                     Responsibility                                      |
 |---------------------|-----------------------------------------------------------------------------------------|
 |   Austin McBurney   |          Wrote CLI code, readme,  organized repository, testing & instructions          |
-|---------------------|-----------------------------------------------------------------------------------------|
 | Kendrick Manchester |          Managed team dynamics ensuring effective colaboration                          |
-|---------------------|-----------------------------------------------------------------------------------------|
 |    Dennis Garay     | Wrote the descriptive content for the relational schema and the data population process |
-|---------------------|-----------------------------------------------------------------------------------------|
 |    Jakobe Allen     |          Created E-R Diagram for the database. Defined entities & attributes            |
-|---------------------|-----------------------------------------------------------------------------------------|
-|     Dillon Davis    |            Wrote up report specificiations for entire project                           |   
-|---------------------|-----------------------------------------------------------------------------------------|
+|     Dillon Davis    |            Wrote up report specificiations for entire project                           |
