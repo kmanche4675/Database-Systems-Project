@@ -4,15 +4,17 @@ This project implements a simple relational database system for a fast food rest
 
 ---
 
-## Setup Instructions (Read Me Requirement: 2 Points)
+## Setup Instructions 
 
 The following steps are required to initialize the database and application environment using **SQLite** and **Python 3**.
 
 ### Clone the Repo
 ```bash
 git clone https://github.com/kmanche4675/Database-Systems-Project.git
+```
+```bash
 cd database-systems-project
-
+```
 2. **Install Requirements**
     - Only the built-in sqlite3 and argparse modules are used. No external libraries required.
 
@@ -25,7 +27,9 @@ sqlite3 db/burgerplus.db < db/schema.sql
     - If you want test data included
 ```bash
 sqlite3 db/burgerplus.db < seed_data.sql
-  - Or Python Script
+```
+   Or Python Script
+```bash
 python seed/seed_data.py
 
 ```
