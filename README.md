@@ -36,7 +36,7 @@ cd database-systems-project
 ## Usage: CLI Commands
 Run any of the following from the Root Directory:
 1. **Add a Menu Item**
-* Creates a new item for the menu
+    * Creates a new item for the menu
 ```bash
 python main.py add_menu_item --item_id 999 --name "Spicy Burger" --category Burger --price 10.99 --description "Hot and Juicy"
 ```
@@ -51,12 +51,12 @@ python main.py add_menu_item --item_id 999 --name "Spicy Burger" --category Burg
 |--available   |  Add this flag to mark the item as available/unavailable |
 
 2. **List All Menu Items**
-* Display all menu items currently in the database
+    * Display all menu items currently in the database
 ```bash
 python main.py list_menu_items
 ```
 3. **Add a Customer**
-* Register a new customer to the system
+    * Register a new customer to the system
 ```bash
 python main.py add_customer --id 1 --first John --last Doe --phone 1234567890 --email john@example.com
 ```
@@ -70,7 +70,7 @@ python main.py add_customer --id 1 --first John --last Doe --phone 1234567890 --
 |  --email  |            Email Address           |
 
 4. **Create an Order**
-* Creates a new order with one or more items (the items are passed in as pairs)
+    * Creates a new order with one or more items (the items are passed in as pairs)
 ```bash
 python main.py create_order --order_id 1001 --customer_id 1 --employee_id 1255 --item 1 1 --item 2 2
 ```
@@ -83,13 +83,13 @@ python main.py create_order --order_id 1001 --customer_id 1 --employee_id 1255 -
 |--items       | One or more pairs of item_id quantity: (item_id, quantity) |
 
 5. **List Customers**
-* Display registered customers
+    * Display registered customers
 ```bash
 python main.py list_customers
 ```
 
 6. **List All Orders**
-* Display all order information
+    * Display all order information
 ```bash
 python main.py list_orders
 ```
