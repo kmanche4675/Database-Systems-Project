@@ -26,7 +26,7 @@ cd database-systems-project
     ```
     2. CREATE the new schema
     ```bash
-    ./sqlite3 db/burgerplus.db < db/schema.sql
+    sqlite3 db/burgerplus.db < db/schema.sql
      ```
     3. LOAD the synthetic data (Uses Python script)
     ```bash
@@ -88,15 +88,9 @@ python main.py create_order --order_id 1001 --customer_id 1 --employee_id 1255 -
 python main.py list_customers
 ```
 
-6. **List All Orders**
-    * Display all order information
-```bash
-python main.py list_orders
-```
-
 7. **Testing**
 ```bash
-./sqlite3 db/burgerplus.db < test_queries.sql
+sqlite3 db/burgerplus.db < test_queries.sql
 ```
 ### Team Members
 |      Name           |                                     Responsibility                                      |
